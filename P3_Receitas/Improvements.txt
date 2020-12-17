@@ -1,0 +1,47 @@
+﻿
+IMPROVEMENTS PARA AS PRÓXIMAS VERSÕES
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Login:
+
+- Ao fazer login, mudar a divLoginHomepage e a divFazerLogin para uma saudação
+- Permitir logoff
+- Logar automaticamente após registar novo usuário
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SearchBar:
+
+- Implementar função de busca
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Contacto:
+
+- Implementar função apra enviar e-mail a partir do formulário da página Contacto.html
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CSS:
+
+- Usar Bootstrap
+- Ajustar o footer para aparecer sem scroll em páginas que não necessitam de scroll
+- Melhorar posicionamento dos elementos para tornar a página mais responsiva (minha maior dificuldade em CSS)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+localStorage
+
+- Melhorar armazenamento e recuperação de dados 
+	Verificar como trabalhar melhor com o localStorage para array, já que ele usa String para armazenar
+	Ajustar métodos para converter a String para Array, já que o usuário pode inserir caracteres como "|" e ",", que foram uilizados nessa versão para fazer essa separação (.split)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+JavaScript
+
+- Refaturação de código para eliminar códigos duplicados, evitando redundancia
+- Implementar mais verificações para inputs do usuário
+	Ex: o registar novo usuário, além de checar se o nome de usuário já existe, chegar se o e-mail também já está registado na localStorage
+
